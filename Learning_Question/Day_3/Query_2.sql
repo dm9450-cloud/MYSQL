@@ -1,0 +1,15 @@
+SHOW DATABASES;
+USE dipanshu;
+DROP DATABASE temp1;
+DROP DATABASE temp2;
+
+CREATE TABLE temp1(
+	id INT,
+    name VARCHAR(50),
+    age INT,
+    city VARCHAR(20),
+    PRIMARY KEY(id, name)
+    );
+
+INSERT INTO temp1 VALUES(101);
+INSERT INTO temp1 VALUES(101);
